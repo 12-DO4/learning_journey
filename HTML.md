@@ -23,10 +23,10 @@ _note: documentation can replace comments_
 
 
 ### DOCTYPE
-- مشاكل توافقية؟ لي مبقتش مهمة؟ اى العناصر اللى المتصفح بيضيفها لوحده؟
 - doctype for HTML5, HTML4, ...
 - case insensitive
 - rendering? quirks & standard modes?
+- مشاكل توافقية؟ لي مبقتش مهمة؟ اى العناصر اللى المتصفح بيضيفها لوحده؟
 
 
 ### best practices
