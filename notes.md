@@ -1,0 +1,6 @@
+- search
+- don't use arabic or spaces in folder or file naming
+- target
+- clean well-formated code
+- folder structure
+- 
