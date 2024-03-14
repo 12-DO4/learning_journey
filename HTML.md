@@ -89,7 +89,7 @@ _note: documentation can replace comments_
 - are td and th essential inside tr even if there's only one? can we replace them with a plain text?
 - more about captions?
 - table tibute for styling (cellpadding, cellspacing, width, height, border) use CSS instead
-- spans (rowspan - colspan) & colgroup>col vs tr>td vs tr>th?
+- spans (rowspan - colspan) & colgroup>col (only for styles!) vs tr>td vs tr>th?
 - table
     - colgroup
         - col
@@ -254,9 +254,10 @@ details
 | source | ? |
 | track | block |
 | iframe | inline |
-| table, thead, tbody, tfoot, colgroup | block |
+| table, thead, tbody, tfoot | block |
+| colgroup, col | ? |
 | tr | block |
-| td, th, col | inline |
+| td, th | inline |
 | caption | block |
 | div | block |
 | header, nav, section, article, aside, footer | block |
