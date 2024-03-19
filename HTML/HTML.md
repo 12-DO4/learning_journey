@@ -18,9 +18,14 @@ _note: documentation can replace comments_
 - title and meta description in search engine results
 - meta charset (ISO-8559-1 & UTF-8)
 - meta name & content (description, author, copyright, special for facebook or wordpress, ...)
-- base?
+- base? (for external css files, imgs, scripts!)
 - style vs link?
 - script vs noscript?
+
+
+### body
+- attributes for background: bgcolor(color), background(image)
+- attributes for links colors: link vs alink vs vlink
 
 
 ### headings & paragraphs
@@ -32,20 +37,21 @@ _note: documentation can replace comments_
 - strong vs b
 - em vs i vs cite vs dfn vs address
 - u & s vs ins & del
-- mark (find in page same background color!)
+- mark (find in page same background color!) & bgcolor attribute
 - sub vs sup (another use cases rather than in maths and chemistry?)
 - big(deprecated) vs small
 - q vs blockquote (user agent stylesheet & frameworks stylesheets?, q adds "" cannot be copied!)
 - wbr vs br?
-- bdi? vs bdo? vs center (deprecated)
+- bdi? vs bdo? vs center (deprecated) vs dir element vs dir & align attributes 
 - code vs var vs pre vs kbd vs samp (user agent stylesheet fonts?)
 - abbr (title attribute, user agent stylesheets underline it!)
+- font(size:1~7, face, color)
 
 
 ### links
 - target attribute values?
 - HTTP & FTP protocols?
-- usages (bookmarks, emails with a query, phone calls, hypertext, download PDFs?)
+- usages (bookmarks:linkage with id or name attribute!, emails with a query:subject & body, phone calls, hypertext:local files or on servers, download PDFs?)
 - can do a functionality or only for navigation?
 - paths (name & extension - relative & absolute - on external servers & on folder structure - path errors & console in devtools - fragments? & queries?)
 
@@ -187,7 +193,7 @@ details
             - search (icons inside: close and search? how to use?)
             - url (check existance of url on servers?)
         - list attribute (linkage with datalist element)
-    - select (multiple attribute: ctrl + click)
+    - select (size attribute, multiple attribute: ctrl + click)
         - optgroup (label attribute)
             - option (plain text vs value of value attribute?, selected attribute)
     - textarea (vs input:text)
@@ -284,6 +290,7 @@ details
 - post, get & dialog methods in form element? query string? query string parameters? Database?
 - more about metadata, Acessiblity, SEO, best practices, performance
 - colors & contrast ratio
+- name vs id attributes
 
 
 ## Acessiblity
